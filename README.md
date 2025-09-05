@@ -1,12 +1,23 @@
-# React + Vite
+# Mini CRM System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple CRM (Customer Relationship Management) system built using **React + Vite**.  
+It allows users to add, edit, update, and delete customer records, with local storage persistence.  
 
-Currently, two official plugins are available:
+## 🚀 Live Demo 
+🔗 [View Project on Netlify](https://visionary-valkyrie-d5e6ee.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Source Code  
+🔗 [GitHub Repository](https://github.com/ananya159/mini-crm-system)
 
-## Expanding the ESLint configuration
+## ✨ Features  
+- Add new customers  
+- Edit customer details  
+- Delete customers  
+- Track customer status (lead, active, etc.)  
+- Data persistence with localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- React (Vite)  
+- JavaScript (ES6+)  
+- CSS  
+- Netlify (for deployment)
