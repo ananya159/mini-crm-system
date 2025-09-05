@@ -1,0 +1,70 @@
+
+/* Background setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://media.istockphoto.com/id/1479379116/photo/businessman-using-a-computer-and-dashboard-crm-for-management-customer-relationship.webp?a=1&b=1&s=612x612&w=0&k=20&c=1TtREXkeLB7l9Oh073yEusbykd2HuYafDsBeMA5vGm4=') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Container styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:first-of-type {
+  background-color: #2196F3;
+  color: white;
+}
+
+button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
